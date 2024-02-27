@@ -5,9 +5,9 @@
 *.log
 
 # Properties Files
-application.properties
-*.properties
-*.properties.bk
+# application.properties
+# *.properties
+# *.properties.bk
 
 # Package Files #
 *.jar
