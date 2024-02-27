@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS `product`;
 create table product(
 id int AUTO_INCREMENT PRIMARY KEY,
 name varchar(40),
-description varchar(150),
+description varchar(200),
 price decimal(8,2) 
 );
 
