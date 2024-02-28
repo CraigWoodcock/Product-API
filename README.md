@@ -16,3 +16,5 @@ I have added extra CRUD methods to the API and created my own MySQL database and
 ### Updates. 
 - The application has been successfully deployed on AWS EC2 Instances(Virtual Machines), as a Two Tier Architecture. This means the database was deployed onto an EC2 Instance and the API was then deployed onto a separate EC2 Instance.
 
+- The application has been successfully deployed within an AWS VPC(Virtual Private Cloud), launching the Database on a private subnet and controlling access via security groups. The api was launched on a public subnet with a public route table and internet gateway directing public traffic into the public subnet and allowing access to our application via security groups. 
+
