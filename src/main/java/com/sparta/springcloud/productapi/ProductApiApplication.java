@@ -19,10 +19,10 @@ public class ProductApiApplication {
 		SpringApplication.run(ProductApiApplication.class, args);
 	}
 
-	@Bean
-	public CommandLineRunner runner(ProductRepository productRepository){
-
-		return args -> logger.log(Level.INFO,productRepository.findAll().toString());
-	}
+//	@Bean
+//	public CommandLineRunner runner(ProductRepository productRepository){
+//
+//		return args -> logger.log(Level.INFO,productRepository.findAll().toString());
+//	}
 
 }
