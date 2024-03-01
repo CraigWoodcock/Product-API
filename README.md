@@ -18,4 +18,6 @@ I have added extra CRUD methods to the API and created my own MySQL database and
 
 - The application has been successfully deployed within an AWS VPC(Virtual Private Cloud), launching the Database on a private subnet and controlling access via security groups. The api was launched on a public subnet with a public route table and internet gateway directing public traffic into the public subnet and allowing access to our application via security groups. 
 
-- The application now has a basic layer of security using InMemoryUserDetailsManager and DefaultPasswordEncoder. This is a production recommended approach!
+- The application now has a basic layer of security using InMemoryUserDetailsManager and DefaultPasswordEncoder. This is not a production recommended approach!
+
+- User details are now being stored in the MySQL database that the application is connected to, this adds another layer of security to our app but it is still not production recommended at the moment. We are not encoding the passwords at this stage so they are being returned as plain text!
